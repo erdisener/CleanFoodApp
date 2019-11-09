@@ -27,7 +27,7 @@ const MealsNavigator = createStackNavigator(
       headerStyle: {
         backgroundColor: Platform.OS === "ios" ? Colors.primaryColor : ""
       },
-      headerTintColor: Platform.OS === "ios" ? "white" : ""
+      headerTintColor: Platform.OS === "ios" ? "black" : ""
     }
   }
 );
